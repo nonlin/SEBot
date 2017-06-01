@@ -1,0 +1,6 @@
+Django Heroku commands to setup to be fully functional
+Aside from the settings.py tweaks I had to make to locate static files I also had to run
+
+heroku run python manage.py migrate
+and
+python manage.py makemigrations example_app
