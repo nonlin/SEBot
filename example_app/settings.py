@@ -33,12 +33,12 @@ INSTALLED_APPS = (
 # ChatterBot settings
 
 CHATTERBOT = {
-    'name': 'SE-Bot',
+    'name': 'Django ChatterBot Example',
     'trainer': 'chatterbot.trainers.ChatterBotCorpusTrainer',
     'training_data': [
         'chatterbot.corpus.english.greetings'
     ],
-    'django_app_name': 'sebot_chatterbot'
+    'django_app_name': 'django_chatterbot'
 }
 
 MIDDLEWARE_CLASSES = (
