@@ -37,7 +37,6 @@ CHATTERBOT = {
     'trainer': 'chatterbot.trainers.ChatterBotCorpusTrainer',
     'training_data': [
         'chatterbot.corpus.english.greetings',
-		'chatterbot.corpus.english.conversations',
 		'example_app/corpus/SECorpus.json'
     ],
     'django_app_name': 'django_chatterbot'
